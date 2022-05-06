@@ -7,6 +7,19 @@
 # monitor = 1
 # tags = [ 1, 4, 7 ]
 # state = "floating" # normal, floating, and fullscreen are all valid.
+[[appRule]]
+class = "evince"
+instance = "evince"
+title = "evince"
+monitor = 2
+state = normal
+
+[[appRule]]
+class = "acrobat"
+instance = "acrobat"
+title = "acrobat"
+monitor = 2
+state = normal
 
 # Start external programs
 [[startProcess]]
