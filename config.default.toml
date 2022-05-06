@@ -25,7 +25,7 @@ keys = [ "p" ]
 modifiers = [ "super" ]
 
 [[startProcess]]
-command = "st"
+command = "xterm"
 keys = [ "Return" ]
 modifiers = [ "super" ]
 
@@ -37,8 +37,8 @@ modifiers = [ "super" ]
 [autostart]
 exec = [
   "xsetroot -cursor_name left_ptr",
-  #"firefox",
-  #"st",
+  "xrdb -merge ~/.Xdefaults",
+  "sh ~/.fehbg"
 ]
 
 [settings]
