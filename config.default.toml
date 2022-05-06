@@ -12,14 +12,14 @@ class = "evince"
 instance = "evince"
 title = "evince"
 monitor = 2
-state = normal
+state = "normal"
 
 [[appRule]]
 class = "acrobat"
 instance = "acrobat"
 title = "acrobat"
 monitor = 2
-state = normal
+state = "normal"
 
 # Start external programs
 [[startProcess]]
