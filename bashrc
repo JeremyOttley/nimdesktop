@@ -32,6 +32,9 @@ shopt -s checkwinsize # checks term size when bash regains control
 bind "set completion-ignore-case on"
 
 alias vifm='./.config/vifm/scripts/vifmrun'
+alias sxiv="sxiv -q -Z"
+alias slideshow="sxiv -S 5000 -f -g 3840x2160"
+
 
 
 
