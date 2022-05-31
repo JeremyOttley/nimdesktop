@@ -6,4 +6,8 @@ export VISUAL="emacsclient -c -a emacs"
 export DUNST_SIZE='250x20-30+30'
 export MAKEFLAGS="-j9 -l8"
 export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
+
+# disable core dumps
+ulimit -S -c 0
+
 xrandr --output HDMI-0 --rotate right
