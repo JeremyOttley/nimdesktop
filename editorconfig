@@ -1,0 +1,34 @@
+# This file is for unifying the coding style for different editors and IDEs.
+# More information at http://EditorConfig.org
+
+# No .editorconfig files above the root directory
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# allow trailing whitespace in Markdown files
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+
+[*.yml]
+indent_size = 2
+
+[*.fs]
+fsharp_space_before_uppercase_invocation = true
+
+# Write a comment by starting the line with a '#'
+[*.{fs,fsx,fsi}]
+fsharp_bar_before_discriminated_union_declaration = true
+
+# Apply specific settings for a targeted subfolder
+[src/Elmish/View.fs]
+fsharp_multiline_block_brackets_on_same_column = true
+fsharp_experimental_stroustrup_style = true
